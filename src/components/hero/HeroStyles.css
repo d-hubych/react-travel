@@ -1,0 +1,60 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffffcc;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 6px;
+  max-width: 700%;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.form input {
+  background: transparent;
+  border: none;
+  width: 82%;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.form input:focus {
+  outline: transparent;
+}

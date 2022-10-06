@@ -4,6 +4,7 @@ import { BsPerson } from 'react-icons/bs';
 import { CgMenu, CgMenuMotion } from 'react-icons/cg';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaPinterest } from 'react-icons/fa';
 
+import { Link } from 'react-scroll';
 import './NavbarStyles.css';
 
 export function Navbar() {
@@ -11,18 +12,28 @@ export function Navbar() {
   const handleNav = () => setNav(!nav);
 
   return (
-    <div className="navbar">
+    <div name="home" className={nav ? 'navbar navbar-active' : 'navbar'}>
       <div className="logo">
         <h2>
           BEACHES.
         </h2>
       </div>
       <ul className="nav-menu">
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>Book</li>
-        <li>Views</li>
+        <Link to="home" smooth={true} offset={0} duration={400}>
+          <li>Home</li>
+        </Link>
+        <Link to="destinations" smooth={true} offset={0} duration={400}>
+          <li>Destinations</li>
+        </Link>
+        <Link to="views" smooth={true} offset={-50} duration={400}>
+          <li>Travel</li>
+        </Link>
+        <Link to="book" smooth={true} offset={0} duration={400}>
+          <li>Book</li>
+        </Link>
+        <Link to="carusel" smooth={true} offset={0} duration={400}>
+          <li>Views</li>
+        </Link>
       </ul>
       <div className="nav-icons">
         <BsSearch className="icon" />
@@ -34,11 +45,21 @@ export function Navbar() {
 
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
+        <Link to="home" smooth={true} offset={0} duration={400}>
           <li>Home</li>
+        </Link>
+        <Link to="destinations" smooth={true} offset={0} duration={400}>
           <li>Destinations</li>
+        </Link>
+        <Link to="views" smooth={true} offset={-50} duration={400}>
           <li>Travel</li>
+        </Link>
+        <Link to="book" smooth={true} offset={0} duration={400}>
           <li>Book</li>
+        </Link>
+        <Link to="carusel" smooth={true} offset={0} duration={400}>
           <li>Views</li>
+        </Link>
         </ul>
         <div className="mobile-menu-bottom">
           <div className="menu-icons">

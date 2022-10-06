@@ -1,0 +1,17 @@
+.carusel {
+  padding:  2rem 0;
+  /* height: 90vh; */
+}
+
+.carusel img {
+  object-fit: cover;
+}
+
+li .thumb {
+  width: 100px;
+}
+
+.thumbs-wraper, 
+.carusel-status {
+  display: none;
+}
