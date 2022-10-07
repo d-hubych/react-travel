@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/travel-react-app/static/css/main.cfdb4123.css",
-    "main.js": "/travel-react-app/static/js/main.23678ed4.js",
-    "static/media/maldivesVideo.mp4": "/travel-react-app/static/media/maldivesVideo.4b1c6a6fb879322d6587.mp4",
+    "main.css": "/travel-react-app/static/css/main.52e1d21c.css",
+    "main.js": "/travel-react-app/static/js/main.4f66e9e4.js",
+    "static/media/Ukraine_beach_HD_short.mp4": "/travel-react-app/static/media/Ukraine_beach_HD_short.154d2143f4d981885776.mp4",
     "static/media/keywest.jpeg": "/travel-react-app/static/media/keywest.1e30514942c6f50bea09.jpeg",
     "static/media/maldives2.jpeg": "/travel-react-app/static/media/maldives2.ee088b6ef17100d7f85f.jpeg",
     "static/media/borabora.jpeg": "/travel-react-app/static/media/borabora.e6c4841f299365fdfa10.jpeg",
     "static/media/borabora2.jpeg": "/travel-react-app/static/media/borabora2.726ded1de37915f83c71.jpeg",
     "static/media/maldives.jpeg": "/travel-react-app/static/media/maldives.6912181c1b1fc6c5fa6f.jpeg",
+    "static/media/Ukraine_Crimea.jpeg": "/travel-react-app/static/media/Ukraine_Crimea.ee34820c8444990cdd95.jpeg",
     "static/media/maldives3.jpeg": "/travel-react-app/static/media/maldives3.9c3058f9a039c5a102a8.jpeg",
     "static/media/award.png": "/travel-react-app/static/media/award.42f7d8f40c346adfe3a7.png",
     "index.html": "/travel-react-app/index.html",
-    "main.cfdb4123.css.map": "/travel-react-app/static/css/main.cfdb4123.css.map",
-    "main.23678ed4.js.map": "/travel-react-app/static/js/main.23678ed4.js.map"
+    "main.52e1d21c.css.map": "/travel-react-app/static/css/main.52e1d21c.css.map",
+    "main.4f66e9e4.js.map": "/travel-react-app/static/js/main.4f66e9e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfdb4123.css",
-    "static/js/main.23678ed4.js"
+    "static/css/main.52e1d21c.css",
+    "static/js/main.4f66e9e4.js"
   ]
 }
