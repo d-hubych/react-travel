@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container">
         <div className="top">
           <h3>
-            BEACHES.
+            LOCATIONS .
           </h3>
           <div className="social">
             <FaFacebook className='icon' />

@@ -15,7 +15,7 @@ export function Navbar() {
     <div name="home" className={nav ? 'navbar navbar-active' : 'navbar'}>
       <div className="logo">
         <h2>
-          BEACHES.
+          LOCATIONS .
         </h2>
       </div>
       <ul className="nav-menu">

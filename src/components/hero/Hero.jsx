@@ -1,6 +1,6 @@
 import React from "react";
 import './HeroStyles.css';
-import Video from '../../assets/maldivesVideo.mp4';
+import Video from '../../assets/Ukraine_beach_HD_short.mp4';
 import { BsSearch } from 'react-icons/bs';
 
 
@@ -13,7 +13,7 @@ export function Hero() {
       <div className="overlay"></div>
       <div className="content">
         <h1>
-          Any Class Travel
+          Around The World
         </h1>
         <h2>
           Top Locations Worldwide

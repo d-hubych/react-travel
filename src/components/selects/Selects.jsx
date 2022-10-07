@@ -3,7 +3,7 @@ import { SelectsImg } from "../selectsImg/SelectsImg";
 import './SelectsStyles.css';
 
 import Borabora from '../../assets/borabora.jpeg';
-import Borabora2 from '../../assets/borabora2.jpeg';
+import CrimeaUkr from '../../assets/Ukraine_Crimea.jpeg';
 import Keywest from '../../assets/keywest.jpeg';
 import Maldives from '../../assets/maldives.jpeg';
 import Maldives2 from '../../assets/maldives2.jpeg';
@@ -14,7 +14,7 @@ export function Selects() {
     <div name="views" className="selects">
       <div className="container">
         <SelectsImg bgImg={ Borabora } text='Bora bora' />
-        <SelectsImg bgImg={ Borabora2 } text='Grenada' />
+        <SelectsImg bgImg={ CrimeaUkr } text='Crimea Ukraine' />
         <SelectsImg bgImg={ Keywest } text='Key west' />
         <SelectsImg bgImg={ Maldives } text='Maldives' />
         <SelectsImg bgImg={ Maldives2 } text='Barbados' />
