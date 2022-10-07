@@ -14,9 +14,11 @@ export function Navbar() {
   return (
     <div name="home" className={nav ? 'navbar navbar-active' : 'navbar'}>
       <div className="logo">
-        <h2>
-          LOCATIONS .
-        </h2>
+        <a href="/">
+          <h2>
+            LOCATIONS .
+          </h2>
+        </a>
       </div>
       <ul className="nav-menu">
         <Link to="home" smooth={true} offset={0} duration={400}>
@@ -45,19 +47,19 @@ export function Navbar() {
 
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
-        <Link to="home" smooth={true} offset={0} duration={400}>
+        <Link to="home" onClick={ handleNav } smooth={true} offset={0} duration={400}>
           <li>Home</li>
         </Link>
-        <Link to="destinations" smooth={true} offset={0} duration={400}>
+        <Link to="destinations" onClick={ handleNav } smooth={true} offset={0} duration={400}>
           <li>Destinations</li>
         </Link>
-        <Link to="views" smooth={true} offset={-50} duration={400}>
+        <Link to="views" onClick={ handleNav } smooth={true} offset={-50} duration={400}>
           <li>Travel</li>
         </Link>
-        <Link to="book" smooth={true} offset={0} duration={400}>
+        <Link to="book" onClick={ handleNav } smooth={true} offset={0} duration={400}>
           <li>Book</li>
         </Link>
-        <Link to="carusel" smooth={true} offset={0} duration={400}>
+        <Link to="carusel" onClick={ handleNav } smooth={true} offset={0} duration={400}>
           <li>Views</li>
         </Link>
         </ul>

@@ -37,14 +37,23 @@ li {
   display: none;
 }
 
+.logo h2 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
 @media screen and (max-width: 940px) {
+  .logo h2 {
+    font-size: 1.6rem;
+  }
+
   .mobile-menu {
     color: black;
     display: flex;
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: -600px;
+    top: -620px;
     left: 0;
     justify-content: space-between;
     background-color: #f5f5f5;
@@ -64,7 +73,12 @@ li {
   }
 
   .mobile-menu li:hover {
-    scale: 1.2;
+    margin-left: 50px;
+  }
+
+  .mobile-menu li:active {
+
+    margin-left: 1000px;
   }
 
   .mobile-nav {
@@ -119,7 +133,14 @@ li {
   }
 
   .humburger {
+    font-size: 1.6rem;
     display: block;
     cursor: pointer;
+  }
+
+  .navbar-active .logo h2 {
+    color: #000;
+    transition-delay: 0.3s;
+
   }
 }

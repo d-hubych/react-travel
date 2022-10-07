@@ -5,18 +5,17 @@
   position: relative;
 }
 
-.hero h2 {
-  font-size: 1.5rem;
-}
-
 #video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0 0 20px 20px;
+
 }
 
 .overlay {
-  background-color: rgba(59, 57, 33, 0.3);
+  background-color: rgba(102, 95, 0, 0.3);
+  border-radius: 0 0 20px 20px;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -61,4 +60,9 @@
 
 .form input:focus {
   outline: transparent;
+}
+
+.hero .form button {
+  background: linear-gradient(45deg, var(--primary-dark-trsp) 0%, var(--primary-light-trsp) 100%);
+  border: none;
 }
