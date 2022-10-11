@@ -21,33 +21,38 @@ export function Navbar() {
         </a>
       </div>
       <ul className="nav-menu">
-        <Link to="home" smooth={true} offset={0} duration={400}>
+        <Link to="home" smooth={true} duration={400}>
           <li>Home</li>
         </Link>
-        <Link to="destinations" smooth={true} offset={0} duration={400}>
+        <Link to="destinations" smooth={true} offset={-20} duration={400}>
           <li>Destinations</li>
         </Link>
-        <Link to="views" smooth={true} offset={-50} duration={400}>
+        <Link to="views" smooth={true} offset={-20} duration={400}>
           <li>Travel</li>
         </Link>
-        <Link to="book" smooth={true} offset={0} duration={400}>
+        <Link to="book" smooth={true} offset={-30} duration={400}>
           <li>Book</li>
         </Link>
-        <Link to="carusel" smooth={true} offset={0} duration={400}>
+        <Link to="carusel" smooth={true} offset={-20} duration={400}>
           <li>Views</li>
         </Link>
-      </ul>
-      <div className="nav-icons">
-        <BsSearch className="icon" />
-        <BsPerson className="icon" />
+        <div className="nav-icons">
+          <a href="/">
+            <BsSearch className="icon" />
+          </a>
+          <a href="/">
+            <BsPerson className="icon" />
+          </a>
       </div>
+      </ul>
+      
       <div className="humburger" onClick={ handleNav }>
         {nav ? <CgMenuMotion /> : <CgMenu />}
       </div>
 
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
-        <Link to="home" onClick={ handleNav } smooth={true} offset={0} duration={400}>
+        <Link to="home" onClick={ handleNav } smooth={true} duration={400}>
           <li>Home</li>
         </Link>
         <Link to="destinations" onClick={ handleNav } smooth={true} offset={0} duration={400}>

@@ -1,0 +1,15 @@
+.on-top-button {
+  position: sticky;
+  left: 100px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-size: 1.1rem;
+  background: linear-gradient(45deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+  cursor: pointer;
+}

@@ -1,22 +1,24 @@
 import React from "react";
 import { Navbar } from "./components/navbar/Navbar";
-import { Hero } from "./components/hero/Hero";
+import { Greetings } from "./components/greetings/Greetings";
 import { Destinations } from "./components/destinations/Destinations";
 import { Search } from "./components/search/Search";
 import { Selects } from "./components/selects/Selects";
-import { ImgCarusel } from "./components/carusel/ImgCarusel";
-import { Footer } from "./components/footer/Footer"
+import { ImgCarousel } from "./components/carusel/ImgCarusel";
+import { Footer } from "./components/footer/Footer";
+import { OnTopButton } from "./components/onTopButton/OnTopButton";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      <Greetings />
       <Destinations />
       <Search />
       <Selects />
-      <ImgCarusel />
+      <ImgCarousel />
       <Footer />
+      <OnTopButton />
     </div>
   );
 }

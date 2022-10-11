@@ -1,10 +1,9 @@
-.carusel {
-  padding:  2rem 0;
-  /* height: 90vh; */
+.carousel {
+  margin-bottom: 2rem;
 }
 
-.carusel img {
-  object-fit: cover;
+.carousel img {
+  /* object-fit: cover; */
 }
 
 li .thumb {
@@ -12,6 +11,39 @@ li .thumb {
 }
 
 .thumbs-wraper, 
-.carusel-status {
+.carousel-status {
   display: none;
+}
+
+.slider-wrapper {
+  padding: 0;
+}
+
+.carousel .slide div {
+width: 100%;
+margin: 0;
+padding: 0;
+
+}
+.slider-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.control-dots {
+  margin: 0;
+  padding: 0;
+}
+
+li .dot {
+  width: 8px !important;
+  height: 8px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.carousel, .carousel-slider {
+  margin: 0;
+padding: 0;
 }

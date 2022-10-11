@@ -1,15 +1,10 @@
 import React from "react";
-import './HeroStyles.css';
-import Video from '../../assets/Ukraine_beach_HD_short.mp4';
+import './GreetingsStyles.css';
 import { BsSearch } from 'react-icons/bs';
 
-
-export function Hero() {
-  return(
-    <div className="hero">
-      <video autoPlay loop muted id="video">
-        <source src={ Video } type='video/mp4'/>
-      </video>
+export function Greetings() {
+  return (
+    <div className="greetings">
       <div className="overlay"></div>
       <div className="content">
         <h1>

@@ -14,7 +14,7 @@ export function Selects() {
     <div name="views" className="selects">
       <div className="container">
         <SelectsImg bgImg={ Borabora } text='Bora bora' />
-        <SelectsImg bgImg={ CrimeaUkr } text='Crimea Ukraine' />
+        <SelectsImg bgImg={ CrimeaUkr } text='Crimea Ukraine' note='SOON' />
         <SelectsImg bgImg={ Keywest } text='Key west' />
         <SelectsImg bgImg={ Maldives } text='Maldives' />
         <SelectsImg bgImg={ Maldives2 } text='Barbados' />

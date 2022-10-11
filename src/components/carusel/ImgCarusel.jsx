@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import "../carusel/ImgCarusel.css"
+import "../carusel/ImgCarusel.css";
 
 import Borabora from '../../assets/borabora.jpeg';
 import Borabora2 from '../../assets/borabora2.jpeg';
@@ -10,12 +10,12 @@ import Maldives from '../../assets/maldives.jpeg';
 import Maldives2 from '../../assets/maldives2.jpeg';
 import Maldives3 from '../../assets/maldives3.jpeg';
 
-export function ImgCarusel() {
+export function ImgCarousel() {
   return (
-    <div className="container">
+    <div name="carusel" className="container">
       <Carousel
-        name="carusel"
-        className="carusel"
+        name="carousel"
+        className="carousel"
         showArrows={true}
         // autoPlay={true}
         infiniteLoop={true}
