@@ -1,6 +1,7 @@
 import React from "react";
 import '../search/SearchStyles.css';
 import Award from '../../assets/award.png';
+import { CountdownTimer } from "../countdownTimer/CountdownTimer";
 
 export function Search() {
   return (
@@ -47,14 +48,13 @@ export function Search() {
             <h4 className="promo-save" >
               GET AN ADDITIONAL 7%  OFF
             </h4>
-            <p className="promo-timer">
-              12 HOURS LEFT!
-            </p>
+            <div className="promo-timer">
+              <CountdownTimer countdownTimestampMs={ 1643673600000 } />
+            </div>
             <p className="promo-offers">
-              VIEW ALL CURRENT OFFERS
+              VIEW ALL CURRENT OFFERS NOW
             </p>
           </div>
-
           <form action="/">
             <div className="input-wrap">
               <label>Destination</label>
