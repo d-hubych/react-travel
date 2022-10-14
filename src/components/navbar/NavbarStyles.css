@@ -9,7 +9,7 @@
   position: absolute;
   transition-delay: 0.3s;
   z-index: 1;
-  font-size: 1.3rem;
+  
 }
 
 .navbar-active {
@@ -48,7 +48,7 @@ li {
 
 .logo h2 {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width: 940px) {
